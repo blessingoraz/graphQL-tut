@@ -37,7 +37,7 @@ class BookList extends Component {
   render() {
     const { selected } = this.state
     return (
-      <div id="main">
+      <div>
         <ul id="book-list">
             {this.displayBooks()}
         </ul>
